@@ -36,5 +36,5 @@ jobs:
 
       - name: Generate documentation
         run: |
-          cd docs
+          cd docs/build
           make html
