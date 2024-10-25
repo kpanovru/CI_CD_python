@@ -1,19 +1,32 @@
 # src/calculator.py
 
-def add(a, b):
-    return a + b
+def add(x, y):
+    return x + y
 
-def subtract(a, b):
-    return a - b
+def subtract(x, y):
+    return x - y
 
-def multiply(a, b):
-    return a * b
+def multiply(x, y):
+    return x * y
 
-def divide(a, b):
-    if b == 0:
-        raise ValueError("Cannot divide by zero")
-    return a / b
+def divide(x, y):
+    if y == 0:
+        raise ValueError("Деление на ноль невозможно.")
+    return x / y
 
-# Новая функция для возведения в степень
-def power(a, b):
-    return a ** b
+def modulus(x, y):
+    return x % y
+
+def power(x, y):
+    return x ** y
+
+def factorial(n):
+    if n < 0:
+        raise ValueError("Факториал не определен для отрицательных чисел.")
+    elif n == 0:
+        return 1
+    else:
+        result = 1
+        for i in range(1, n + 1):
+            result *= i
+        return result
