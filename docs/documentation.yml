@@ -5,12 +5,12 @@ on:
     branches:
       - main
       - development
-      - release  # добавьте ветку release, если необходимо
+      - release  
   pull_request:
     branches:
       - main
       - development
-      - release  # добавьте ветку release, если необходимо
+      - release 
 
 jobs:
   build-docs:
