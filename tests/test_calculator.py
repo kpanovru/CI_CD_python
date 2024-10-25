@@ -1,7 +1,7 @@
 # tests/test_calculator.py
 
 import pytest
-from src.calculator import add, subtract, multiply, divide
+from src.calculator import add, subtract, multiply, divide, power  # добавляем power
 
 def test_add():
     assert add(2, 3) == 5
@@ -26,3 +26,10 @@ def test_divide():
     # Проверка на деление на ноль
     with pytest.raises(ValueError, match="Cannot divide by zero"):
         divide(10, 0)
+
+# Тест для функции power
+def test_power():
+    assert power(2, 3) == 8
+    assert power(5, 0) == 1
+    assert power(0, 5) == 0
+    assert power(1, 5) == 1
