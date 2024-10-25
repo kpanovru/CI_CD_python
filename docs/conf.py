@@ -1,4 +1,3 @@
-
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -7,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'CI_CD_py_documentation'
+project = 'CI_CD_python'
 copyright = '2024, Kirill'
 author = 'Kirill'
 

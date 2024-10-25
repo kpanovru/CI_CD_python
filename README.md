@@ -10,3 +10,4 @@
    ```bash
    git clone https://github.com/ваш-логин/CI_CD_python.git
    cd CI_CD_python
+2. Документация заработала
